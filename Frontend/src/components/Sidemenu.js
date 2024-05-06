@@ -23,7 +23,7 @@ function SideMenu({ isOpen, setIsOpen, smartAccount, logout, address }) {
   }
 
   function testclk(){
-    window.open('https://faucet.botanixlabs.dev/', '_blank');
+    window.open('https://bubs-sepolia.hub.caldera.xyz/', '_blank');
   }
 
   const [value, setValue] = useState(0);
@@ -93,7 +93,7 @@ function SideMenu({ isOpen, setIsOpen, smartAccount, logout, address }) {
                   <div className=" mashiha divide-gray-900 bg-gray-900 text-white-900" >
                     <div className="px-4 mm  sm:px-6">
                       <div className="flex items-start justify-between">
-                        <h2 className="text-llg font-medium text-white">Botanix Club</h2>
+                        <h2 className="text-llg font-medium text-white">Celestia  Club</h2>
                         
                       </div>
                       
@@ -112,7 +112,7 @@ close
                       <div className='flex mml '>
                       <EthBadge className="text-white" address={accountAddress} />
                       <button  className="btn bg-blue-500  text-white  px-4 rounded-full" onClick={hndclck}>
-                       View on Botanix explorer
+                       View on Bubs explorer
                         
                       </button>
                       </div>
@@ -121,7 +121,7 @@ close
                       
                       </div>
                       <button onClick={() => testclk()} className="bg-blue-500 mb-3 text-white py-2 px-4 rounded-full w-full">
-                        Buy BTC
+                        Get Bubs
                       </button>
                       <button onClick={() => handleLogout()} className="bg-blue-500 text-white py-2 px-4 rounded-full w-full">
                         Logout
