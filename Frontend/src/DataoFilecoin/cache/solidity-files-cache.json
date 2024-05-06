@@ -1,0 +1,76 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/vikash/Desktop/all_git_files/Dao-Club/Frontend/src/DataoFilecoin/contracts/CBORParse.sol": {
+      "lastModificationDate": 1702477987841,
+      "contentHash": "bcb5b3abc97178e72fe51a416ef86dc3",
+      "sourceName": "contracts/CBORParse.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": []
+    },
+    "/home/vikash/Desktop/all_git_files/Dao-Club/Frontend/src/DataoFilecoin/contracts/datadao.sol": {
+      "lastModificationDate": 1702496556260,
+      "contentHash": "aaba3fbf6b2b966d1753599a83e61ae0",
+      "sourceName": "contracts/datadao.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CBORParse.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "DataDAO",
+        "MockMarket"
+      ]
+    }
+  }
+}
