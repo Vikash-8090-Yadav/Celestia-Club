@@ -13,7 +13,7 @@ import {Web3} from 'web3';
 import $ from 'jquery'; 
 import ABI from "../SmartContract/artifacts/contracts/InvestmentClub.sol/InvestmentClub.json"
 const ethers = require("ethers")
-const web3 = new Web3(new Web3.providers.HttpProvider("https://bubs-sepolia.rpc.caldera.xyz/http"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc-live-amber-cougar-9xs8t1or8j.t.conduit.xyz"));
 
 
 
@@ -195,7 +195,7 @@ function CreateClub() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                   Transaction Hash: <a href={`https://bubs-sepolia.explorer.caldera.xyz/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                   Transaction Hash: <a href={`https://explorerl2new-live-amber-cougar-9xs8t1or8j.t.conduit.xyz/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });

@@ -23,7 +23,7 @@ const ethers = require("ethers")
 
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 const DataDaoAddress  = "0x8138489b863a68f224307a5D0Fa630917d848e25"
-const web3 = new Web3(new Web3.providers.HttpProvider("https://bubs-sepolia.rpc.caldera.xyz/http"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc-live-amber-cougar-9xs8t1or8j.t.conduit.xyz"));
 
 var contractPublic = null;
 
@@ -109,7 +109,7 @@ async function runProposal(event) {
                   message: 'Transaction Successful',
                   description: (
                     <div>
-                      Transaction Hash: <a href={`https://blockscout.botanixlabs.dev/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                      Transaction Hash: <a href={`https://explorerl2new-live-amber-cougar-9xs8t1or8j.t.conduit.xyz/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                     </div>
                   )
                 });

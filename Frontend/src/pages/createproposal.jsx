@@ -12,7 +12,7 @@ import lighthouse from '@lighthouse-web3/sdk'
 import axios from 'axios';
 import { notification } from 'antd';
 import GetClub from "../getclub";
-const web3 = new Web3(new Web3.providers.HttpProvider("https://bubs-sepolia.rpc.caldera.xyz/http"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc-live-amber-cougar-9xs8t1or8j.t.conduit.xyz"));
 const apiKey = "207e0c12.0ca654f5c03a4be18a3185ea63c31f81"
 var contractPublic = null;
 var cid = null;
@@ -184,7 +184,7 @@ function CreateProposal() {
                     message: 'Transaction Successful',
                     description: (
                       <div>
-                        Transaction Hash: <a href={`https://blockscout.botanixlabs.dev/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                        Transaction Hash: <a href={`https://explorerl2new-live-amber-cougar-9xs8t1or8j.t.conduit.xyz/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                       </div>
                     )
                   });

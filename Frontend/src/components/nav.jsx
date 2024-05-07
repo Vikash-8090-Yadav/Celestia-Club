@@ -9,15 +9,15 @@ import SideMenu from './Sidemenu';
 
 
 const networks = {
-    Bubs: {
-    chainId: `0x${Number(2125031).toString(16)}`,
-    chainName: "Bubs Testnet",
+    L3: {
+    chainId: `0x${Number(51611).toString(16)}`,
+    chainName: "Mode L3",
     nativeCurrency: {
-      name: "Bubs",
+      name: "L3",
       symbol: "ETH",
       decimals: 18,
     },
-    rpcUrls: ["https://bubs-sepolia.rpc.caldera.xyz/http"],
+    rpcUrls: ["https://rpc-live-amber-cougar-9xs8t1or8j.t.conduit.xyz"],
   },
 };
 
@@ -45,7 +45,7 @@ function Nav() {
     
     const balanceWei= await web3.eth.getBalance(accountAddress)
             
-    const finalbalance = web3.utils.fromWei(balanceWei,"ether")+ " "+networks["Bubs"]["nativeCurrency"]["name"];
+    const finalbalance = web3.utils.fromWei(balanceWei,"ether")+ " "+networks["L3"]["nativeCurrency"]["name"];
     console.log("result->"+finalbalance);
     setBalance(finalbalance);
     
@@ -61,11 +61,11 @@ function Nav() {
   }
   let web3 =  new Web3(window.ethereum);
  
-  if(web3.network !=="Bubs"){
+  if(web3.network !=="L3"){
       await window.ethereum.request({
           method:"wallet_addEthereumChain",
           params:[{
-              ...networks["Bubs"]
+              ...networks["L3"]
           }]
       })
   }

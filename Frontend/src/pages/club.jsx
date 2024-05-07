@@ -14,7 +14,7 @@ import GetProposals from "../getProposals";
 import axios from 'axios';
 import Tg from "../components/toggle";
 const ethers = require("ethers")
-const web3 = new Web3(new Web3.providers.HttpProvider("https://bubs-sepolia.rpc.caldera.xyz/http"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc-live-amber-cougar-9xs8t1or8j.t.conduit.xyz"));
 var contractPublic = null;
 
 var hash = null;
@@ -111,7 +111,7 @@ async function contributeClub() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                    Transaction Hash: <a href={`https://blockscout.botanixlabs.dev/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                    Transaction Hash: <a href={`https://explorerl2new-live-amber-cougar-9xs8t1or8j.t.conduit.xyz/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });
@@ -200,7 +200,7 @@ async function leaveClub() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                    Transaction Hash: <a href={`https://blockscout.botanixlabs.dev/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                    Transaction Hash: <a href={`https://explorerl2new-live-amber-cougar-9xs8t1or8j.t.conduit.xyz/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });
@@ -301,7 +301,7 @@ function Club() {
                 message: 'Transaction Successful',
                 description: (
                   <div>
-                    Transaction Hash: <a href={`https://blockscout.botanixlabs.dev/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
+                    Transaction Hash: <a href={`https://explorerl2new-live-amber-cougar-9xs8t1or8j.t.conduit.xyz/tx/${txReceipt.transactionHash}`} target="_blank" rel="noopener noreferrer">{txReceipt.transactionHash}</a>
                   </div>
                 )
               });

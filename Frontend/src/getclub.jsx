@@ -4,7 +4,7 @@ import {Web3} from 'web3';
 import $ from 'jquery'; 
 import ABI from "./SmartContract/artifacts/contracts/InvestmentClub.sol/InvestmentClub.json"
 
-const web3 = new Web3(new Web3.providers.HttpProvider("https://bubs-sepolia.rpc.caldera.xyz/http"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://rpc-live-amber-cougar-9xs8t1or8j.t.conduit.xyz"));
 var contractPublic = null;
 
 async function getContract(userAddress) {
