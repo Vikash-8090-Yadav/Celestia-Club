@@ -53,7 +53,7 @@ Below  is the image of running ROLLUP
 
 
 
-- Join or leave clubs: Anyone with an COnflux blockchain account can join the available investment clubs, as well as leave one, with just a couple of clicks.
+- Join or leave clubs: Anyone with an L3 blockchain account can join the available investment clubs, as well as leave one, with just a couple of clicks.
 
 
 ![Screenshot from 2024-05-08 01-23-58](https://github.com/Vikash-8090-Yadav/Celestia-Club/assets/85225156/b245c9ec-2f5d-4b1a-8e6e-2ca2fc815041)
@@ -141,7 +141,7 @@ The club smart contract has some restrictions, similar to real hedge funds:
 
 ## 🚀 Setting up the project locally
 
-To run the  TreasuryConflux Club locally, follow these steps:
+To run the  Celestia Club locally, follow these steps:
 1. Clone the repository:
  ```bash
  https://github.com/Vikash-8090-Yadav/Celestia-Club.git
