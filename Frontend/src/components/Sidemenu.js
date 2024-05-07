@@ -129,7 +129,7 @@ close
 
                       <div class='flex mx-4 mt-3'>
   <div className=' d1 flex items-center bg-zinc-100 text-zinc-300 w-fit p-2 px-3 rounded-l-lg'>
-    <p className='d text-sm'>{'BTC'}</p>
+    <p className='d text-sm'>{'ETH'}</p>
     <p className= 'dd bg-zinc-800 p-1 px-3 ml-3 rounded-lg text-zinc-100'>
       {(value1)}
     </p>
