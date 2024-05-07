@@ -443,7 +443,7 @@ onChange={(e) => setDestination(e.target.value)}
                         placeholder="Enter the sepolia destination address: 0x....."
                       />{" "}
                       <br />
-                      Amount (in BTC):{" "}
+                      Amount (in ETH):{" "}
                       <input
                         type="number"
                         id="proposal_amount"

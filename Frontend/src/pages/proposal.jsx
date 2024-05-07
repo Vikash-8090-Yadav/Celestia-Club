@@ -554,7 +554,7 @@ function Proposal() {
                         <span id="proposal_destination" />
                       </b>{" "}
                       <br />
-                      Amount (in BTC):{" "}
+                      Amount (in ETH):{" "}
                       <b>
                         <span id="proposal_amount" />
                       </b>{" "}
