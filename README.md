@@ -97,6 +97,7 @@ https://explorerl2new-live-amber-cougar-9xs8t1or8j.t.conduit.xyz/tx/0x62ca443250
 - Timing voting:  After  creation of proposal there is only about 5 min time is given to the  mmeber to  vote.
 
 
+![Screenshot from 2024-05-08 01-49-58](https://github.com/Vikash-8090-Yadav/Celestia-Club/assets/85225156/95b57228-1e71-4580-91a8-cc1d33d8f425)
 
 
 
