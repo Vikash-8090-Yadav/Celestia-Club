@@ -11,7 +11,7 @@
 ## Demo Video: 
 
 
-# Smart contract (L3)  -  0x2C8e10de89319BEdD4535fe668B659e6e1dF5593
+# Smart contract ( Mode L3)  -  0x2C8e10de89319BEdD4535fe668B659e6e1dF5593
 
 https://explorerl2new-live-amber-cougar-9xs8t1or8j.t.conduit.xyz/address/0x2C8e10de89319BEdD4535fe668B659e6e1dF5593
 
