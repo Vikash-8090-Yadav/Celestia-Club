@@ -11,7 +11,6 @@ import {Web3} from 'web3';
 import { notification } from 'antd';
 import ABI from "../SmartContract/artifacts/contracts/InvestmentClub.sol/InvestmentClub.json"
 
-import DataAbi from "../DataoFilecoin/artifacts/contracts/datadao.sol/DataDAO.json"
 
 import axios from 'axios';
 import getProposalById from '../getProposalById';
