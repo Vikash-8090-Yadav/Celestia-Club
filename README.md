@@ -8,7 +8,7 @@
 ## This dapp is live : https://celestia-club.vercel.app/
 
 
-## Demo Video: 
+## Demo Video:  https://youtu.be/D40pEWDmGSk?si=69dlOA-O6BAXZxGP
 
 
 # Smart contract ( Mode L3)  -  0x2C8e10de89319BEdD4535fe668B659e6e1dF5593
